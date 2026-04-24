@@ -3,7 +3,7 @@ import getRandomData from '../utils.js'
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no"'
 
-const isPrime = num => {
+const isPrime = (num) => {
   if (num < 2) return false
 
   const sqrtNum = Math.sqrt(num)
